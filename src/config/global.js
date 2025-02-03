@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Conceptos fundamentales',
   },
   menuPrincipal: {
     menu: [
@@ -15,70 +15,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'La democracia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Definición de la Constitución Política y democracia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Estructura ética y los derechos fundamentales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +70,89 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Arévalo Reyes, H. D. (2016). Constitución política de Colombia 1991. Ecoe Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/70449',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Landemore, H. (2020). Democracia abierta: reinventar el gobierno popular para el siglo XXI. PrinTrill, M. (2017). El hombre bueno y el buen ciudadano en Aristóteles. EUNSA.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/47367',
+    },
+    {
+      referencia:
+        'Valadés, D. (2002). Constitución y democracia. Instituto de Investigaciones Jurídicas - UNAM.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/72296',
+    },
+    {
+      referencia: 'ceton University Press.',
+      link: 'https://philpapers.org/rec/LANODR',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Asamblea ateniense',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'institución política de la antigua Grecia donde los ciudadanos participaban directamente en la toma de decisiones, siendo un modelo temprano de democracia directa.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Bloque de constitucionalidad',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'conjunto de normas y principios que, aunque no están textualmente en la constitución, tienen el mismo valor normativo y sirven para interpretar y complementar los derechos fundamentales.',
+    },
+    {
+      termino: 'Contrapesos institucionales',
+      significado:
+        'mecanismos establecidos en la constitución para equilibrar los poderes del Estado, garantizando que ninguna rama del gobierno acumule un poder desmedido y protegiendo los derechos fundamentales.',
+    },
+    {
+      termino: 'Cultura política',
+      significado:
+        'valores, actitudes y conocimientos que los ciudadanos tienen respecto a su sistema político, influyendo en su relación con la democracia y los derechos fundamentales.',
+    },
+    {
+      termino: 'Democracia directa',
+      significado:
+        'sistema político en el que los ciudadanos toman decisiones de forma directa, sin intermediarios, como ocurrió en Atenas.',
+    },
+    {
+      termino: 'Democracia representativa',
+      significado:
+        'modelo de democracia en el que los ciudadanos eligen a representantes que toman decisiones en su nombre, siendo la forma predominante en los Estados modernos.',
+    },
+    {
+      termino: 'Derechos colectivos',
+      significado:
+        'derechos que protegen a comunidades específicas, como los pueblos indígenas o las minorías étnicas, y que incluyen la preservación de sus culturas, territorios y formas de vida.',
+    },
+    {
+      termino: 'Derechos de participación política',
+      significado:
+        'garantías constitucionales que permiten a los ciudadanos incidir en las decisiones públicas mediante el voto, los referendos y otros mecanismos de deliberación.',
+    },
+    {
+      termino: 'Estado de derecho',
+      significado:
+        'principio que establece que todas las personas, incluidos los gobernantes, están sujetos a la ley y que esta debe garantizar los derechos fundamentales.',
+    },
+    {
+      termino: 'Justicia distributiva',
+      significado:
+        'enfoque ético que busca garantizar una distribución equitativa de los recursos, responsabilidades y beneficios dentro de una sociedad democrática.',
+    },
+    {
+      termino: 'Soberanía popular',
+      significado:
+        'fundamento de las democracias modernas, que establece que el poder reside en el pueblo y que las decisiones públicas deben reflejar su voluntad.',
+    },
+    {
+      termino: 'Supremacía de la ley',
+      significado:
+        'doctrina que asegura que ninguna autoridad ni individuo está por encima de la constitución y que las normas legales deben prevalecer sobre las arbitrariedades.',
+    },
+    {
+      termino: 'Valores democráticos',
+      significado:
+        'principios como la libertad, la igualdad, la justicia y la solidaridad que orientan la acción política y social en los sistemas democráticos.',
     },
   ],
 }

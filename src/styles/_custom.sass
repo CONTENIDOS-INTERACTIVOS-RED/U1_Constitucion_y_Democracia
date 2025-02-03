@@ -17,13 +17,13 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #B9C8FE
   &-2
-    background-color: #FFFBE8
+    background-color: #F3F3FF
   &-3
-    background-color: #F0E9F6
+    background-color: #FFF3CB
   &-4
-    background-color: #EAF8FD
+    background-color: #F3F3F3
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -40,21 +40,24 @@
     border-top: 5px solid $color-terciario !important
 
 // Full Width Background
-.bg-full-width
-  background-size: cover
+.bg-full-width, .bg-full-width-2
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+.bg-full-width
+  background-size: cover
+.bg-full-width-2
+  background-size: contain
 
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    //background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -186,16 +189,16 @@ $custom-card-img-height: 322px
   .linea-tiempo-d__item__content__title
     padding: 28px
     border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
+    background-color: #FCFAF3 !important
   .linea-tiempo-d__item__content__title.active
-    background-color: $color-primario !important
+    background-color: #E3D496 !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
+    background-color: #F6F1DF !important
   .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
+    background-color: #FCFAF3 !important
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-primario !important
+    background-color: #E3D496 !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down

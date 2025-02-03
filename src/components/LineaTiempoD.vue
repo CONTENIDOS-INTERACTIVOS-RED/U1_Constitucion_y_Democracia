@@ -61,11 +61,32 @@ export default {
     background-color: $color-primario !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
+    background-color: #F6F1DF !important
   .linea-tiempo-d__item__number
     background-color: lighten($color-primario, 30%)
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
     background-color: $color-primario !important
+  .linea-tiempo-d__item__dots:after
+    border-left: 0px
+  .fa-angle-up, .fa-angle-down
+    display: block
+
+.large.bg-azul
+  .linea-tiempo-d__item__content__title
+    padding: 28px
+    border-radius: 5px 5px 0px 0px
+    background-color: #B9C8FE !important
+  .linea-tiempo-d__item__content__title.active
+    background-color: #2D428A !important
+    color: white !important
+  .linea-tiempo-d__item__content__slot
+    border-radius: 0px 0px 5px 5px
+    background-color: #DDE2FE !important
+  .linea-tiempo-d__item__number
+    background-color: #B9C8FE !important
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #2D428A !important
+    color: white !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down
