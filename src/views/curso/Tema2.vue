@@ -179,15 +179,11 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+                a(href="https://www.unilibre.edu.co/cartagena/pdf/investigacion/libros/derecho/CONSTITUCIONALISMO%20Y%20DEMOCRACIA.pdf" target="_blank" rel="noopener noreferrer") Mercado García, E. (2015). Constitucionalismo y Democracia en Colombia. Universidad Libre. 
   
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.senalcolombia.tv/documental/podcast-constitucion-1991-volvamos-futuro" target="_blank" rel="noopener noreferrer") Definición de la Constitución Política y democracia, su importancia social. Señal Colombia. (2021). Constitución de 1991, volvamos al futuro 
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

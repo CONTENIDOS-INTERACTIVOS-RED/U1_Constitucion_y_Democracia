@@ -94,6 +94,60 @@
               td Garantizan condiciones de vida que permiten el desarrollo integral de las personas y promueven la igualdad de oportunidades y la cohesión social.
 
 
+      h2(data-aos="flip-up").mb-4 Valores éticos fundamentales en los derechos
+
+      p(data-aos="fade-right").mb-4 Los valores éticos fundamentales sustentan los derechos y guían las relaciones humanas en una sociedad democrática.
+
+      .bg-full-width.bg-color-info.mb-5
+        .p-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-10
+              ImagenInfografica.color-secundario
+                  template(v-slot:imagen)
+                    figure
+                      img(src='@/assets/curso/tema3/info1.svg', alt='', style="max-width: 820px;").mx-auto
+
+                  .bg-color-white.box-shadow.p-3(x="42%" y="21%" numero="+")
+                    h5 Dignidad humana
+                    p Este principio asegura que cada persona sea tratada con respeto, independientemente de su origen o condición social.
+
+                  .bg-color-white.box-shadow.p-3(x="27%" y="48%" numero="+")
+                    h5 Justicia
+                    p Una democracia sólida necesita una estructura normativa que garantice el trato equitativo y proteja a los más vulnerables. Ejemplo: el acceso a la educación gratuita reduce desigualdades sociales y económicas.
+
+                  .bg-color-white.box-shadow.p-3(x="74%" y="48%" numero="+")
+                    h5 Equidad
+                    p Promueve una distribución justa de oportunidades y recursos, asegurando que todos puedan participar en el bienestar colectivo.
+
+
+      h2(data-aos="flip-up").mb-4 La constitución como garante de los derechos fundamentales
+
+      p(data-aos="fade-right").mb-4 La constitución política no solo define los derechos fundamentales, sino que también establece los mecanismos necesarios para protegerlos. Estos incluyen la división de poderes, los controles constitucionales y la participación ciudadana mediante el ejercicio de derechos políticos, como el voto. 
+
+      .bg-color-4.mb-5(data-aos="fade-up")
+        .row.justify-content-center.align-items-center
+          .col-lg
+            .p-4
+              p.mb-0(data-aos="fade-up") La constitución política y la democracia son pilares esenciales en la organización de los Estados modernos, proporcionando un marco para el equilibrio entre el poder gubernamental y los derechos ciudadanos. Ambos conceptos son fundamentales para garantizar el bienestar colectivo y estructurar la convivencia social.
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema3/2.png', alt='')
+
+
+      .bg-full-width.bg-color-2.mb-4
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-7
+              h2.mb-4(data-aos="flip-up") Retos en la garantía de derechos fundamentales
+              p.mb-4(data-aos="fade-right") En el documento se aborda cómo las democracias enfrentan retos significativos en la garantía de los derechos fundamentales, destacando la desigualdad en su acceso, las tensiones entre la libertad individual y la seguridad colectiva, y las amenazas externas como la desinformación y los regímenes autoritarios.
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Retos en la garantía de derechos fundamentales
+            .col-lg-5
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema3/3.png', alt='')
 
       .bg-full-width.border-top.actividad.bg-color-actividad
         .p-4.p-md-5
@@ -109,15 +163,8 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.un.org/es/about-us/universal-declaration-of-human-rights" target="_blank" rel="noopener noreferrer") Declaración Universal de los Derechos Humanos (1948). Naciones Unidas. 
+
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
@@ -143,29 +190,28 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+            texto: '¿Cuál es el origen etimológico de la palabra "democracia"?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Latín',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Griego',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Árabe',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Francés',
                 esCorrecta: false,
               },
             ],
@@ -174,29 +220,28 @@ export default {
           },
           {
             id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+            texto: '¿En qué ciudad se originó la democracia directa?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Roma',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Esparta',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Atenas',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Corinto',
                 esCorrecta: false,
               },
             ],
@@ -205,29 +250,28 @@ export default {
           },
           {
             id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+            texto: '¿Qué significa "demos" en griego?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Poder',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Pueblo',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Gobierno',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Justicia',
                 esCorrecta: false,
               },
             ],
@@ -236,28 +280,30 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Qué documento limita el poder del rey y establece ciertos derechos para los nobles en Inglaterra?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'La Declaración de Independencia',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'La Carta Magna',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'La Constitución de 1991',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto:
+                  'La Declaración de los Derechos del Hombre y del Ciudadano',
                 esCorrecta: false,
               },
             ],
@@ -266,29 +312,28 @@ export default {
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: '¿Qué principio establece que el poder reside en el pueblo?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'Soberanía popular',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Supremacía de la ley',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Justicia distributiva',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Contrapesos institucionales',
                 esCorrecta: false,
               },
             ],

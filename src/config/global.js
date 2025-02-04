@@ -69,23 +69,33 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Arévalo Reyes, H. D. (2016). Constitución política de Colombia 1991. Ecoe Ediciones.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/70449',
+      referencia: 'Platón. (2004). La República: ( ed.). El Cid Editor.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/35993',
     },
     {
       referencia:
-        'Landemore, H. (2020). Democracia abierta: reinventar el gobierno popular para el siglo XXI. PrinTrill, M. (2017). El hombre bueno y el buen ciudadano en Aristóteles. EUNSA.',
+        'Arriola, C. (1994). ¿Qué es la democracia?: ( ed.). Editorial Miguel Ángel Porrúa.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/72937',
+    },
+    {
+      referencia:
+        'Valadés, D. (2002). Constitución y democracia: ( ed.). Instituto de Investigaciones Jurídicas - UNAM.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/72296',
+    },
+    {
+      referencia:
+        'Alvarez Yágüez, J. (2012). Política y República: Aristóteles y Maquiavelo: ( ed.). Biblioteca Nueva.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106238',
+    },
+    {
+      referencia:
+        'Trill, M. (2017). El hombre bueno y el buen ciudadano en Aristóteles: ( ed.). EUNSA.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/47367',
     },
     {
       referencia:
-        'Valadés, D. (2002). Constitución y democracia. Instituto de Investigaciones Jurídicas - UNAM.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/72296',
-    },
-    {
-      referencia: 'ceton University Press.',
-      link: 'https://philpapers.org/rec/LANODR',
+        'Arévalo Reyes, H. D. (2016). Constitución política de Colombia 1991: ( ed.). Ecoe Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/70449',
     },
   ],
   glosario: [
