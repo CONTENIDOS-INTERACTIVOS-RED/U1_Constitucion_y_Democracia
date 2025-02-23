@@ -5,7 +5,7 @@
 
       p(data-aos="fade-right").mb-4 La ética y los derechos fundamentales son pilares esenciales para cualquier sociedad democrática. Ambos conceptos están profundamente interconectados, ya que los principios éticos inspiran la formulación y protección de derechos fundamentales, que garantizan la dignidad y el bienestar de las personas. La constitución política actúa como un instrumento que traduce estos valores éticos en normas concretas, promoviendo justicia, equidad y convivencia pacífica.
 
-      h2(data-aos="flip-up").mb-4 Relacionales entre ética y derechos fundamentales
+      h2(data-aos="flip-up").mb-4 Relación entre ética y derechos fundamentales
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-4
@@ -57,7 +57,7 @@
 
       .titulo-figura.mb-4
         h5 Tabla 1.
-        span Relación entre procesos de desarrollo y sistemas de pruebas
+        span Clasificación de los derechos fundamentales
 
 
       .tabla-a.color-acento-contenido.mb-5
@@ -128,7 +128,7 @@
         .row.justify-content-center.align-items-center
           .col-lg
             .p-4
-              p.mb-0(data-aos="fade-up") La constitución política y la democracia son pilares esenciales en la organización de los Estados modernos, proporcionando un marco para el equilibrio entre el poder gubernamental y los derechos ciudadanos. Ambos conceptos son fundamentales para garantizar el bienestar colectivo y estructurar la convivencia social.
+              p.mb-0(data-aos="fade-up") La interrelación entre ética, derechos fundamentales y constitución refuerza el compromiso de las sociedades democráticas con una convivencia justa y respetuosa. Este vínculo asegura que los principios éticos se transformen en derechos tangibles, promoviendo la dignidad humana y la justicia como pilares esenciales de una sociedad democrática. A través de este marco, se construye un entorno en el que la igualdad y la participación ciudadana son elementos fundamentales para el bienestar colectivo.
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema3/2.png', alt='')
@@ -140,7 +140,7 @@
             .col-lg-7
               h2.mb-4(data-aos="flip-up") Retos en la garantía de derechos fundamentales
               p.mb-4(data-aos="fade-right") En el documento se aborda cómo las democracias enfrentan retos significativos en la garantía de los derechos fundamentales, destacando la desigualdad en su acceso, las tensiones entre la libertad individual y la seguridad colectiva, y las amenazas externas como la desinformación y los regímenes autoritarios.
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

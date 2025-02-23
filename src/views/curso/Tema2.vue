@@ -87,7 +87,7 @@
       .row.align-items-stretch.mb-5
         .col-lg-9
           .bg-color-3.p-4.h-100(data-aos="fade-left")
-            p(data-aos="fade-left").mt-lg-4 La constitución y la democracia son pilares esenciales para garantizar derechos, promover la equidad y evitar abusos de poder. Juntas, estas herramientas estructuran un modelo de convivencia que respeta la dignidad humana y asegura la participación activa en la vida pública
+            p(data-aos="fade-left").mt-lg-4 La constitución y la democracia son pilares esenciales para garantizar derechos, promover la equidad y evitar abusos de poder. Juntas, estas herramientas estructuran un modelo de convivencia que respeta la dignidad humana y asegura la participación activa en la vida pública.
         .col-lg-3
           figure
             img(src="@/assets/curso/tema2/6.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
@@ -161,7 +161,7 @@
               h2.mb-4(data-aos="flip-up") Desafíos actuales de las constituciones y las democracias modernas
               p.mb-4(data-aos="fade-right") En el documento se examinan los desafíos actuales que enfrentan las democracias y las constituciones modernas, destacando la falta de representación auténtica, el aumento de la desigualdad social y las amenazas autoritarias. Estos retos subrayan la importancia de la participación activa y la educación cívica como herramientas esenciales para fortalecer los valores democráticos y proteger los derechos constitucionales.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

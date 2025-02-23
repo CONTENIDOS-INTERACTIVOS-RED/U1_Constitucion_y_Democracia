@@ -86,7 +86,7 @@
         .bg-color-2.p-4(data-aos="fade-left").mb-4
           p.mb-0 Según Landemore (2020), “su flexibilidad y capacidad de adaptación la convierten en una opción relevante para las sociedades actuales.” A pesar de estos retos, la democracia sigue siendo un mecanismo para empoderar a los ciudadanos y reflejar intereses colectivos.
         
-        p(data-aos="fade-left") Estudiar la democracia, desde su etimología hasta su implementación actual, permite valorar su impacto en la construcción de sociedades más justas y equitativas. La evolución de este sistema destaca su capacidad para adaptarse y responder a las necesidades cambiantes de las comunidades. Además, fortalece una comprensión crítica de los principios democráticos, invitando a reflexionar sobre su rol en la vida contemporánea
+        p(data-aos="fade-left") Estudiar la democracia, desde su etimología hasta su implementación actual, permite valorar su impacto en la construcción de sociedades más justas y equitativas. La evolución de este sistema destaca su capacidad para adaptarse y responder a las necesidades cambiantes de las comunidades. Además, fortalece una comprensión crítica de los principios democráticos, invitando a reflexionar sobre su rol en la vida contemporánea.
       .col-lg-4.d-none.d-sm-block
         figure
           img(src="@/assets/curso/intro/2.png", data-aos="zoom-in").mb-4.mb-lg-0
@@ -130,7 +130,6 @@
           img(src="@/assets/curso/tema1/7.svg", alt="", data-aos="zoom-in").mb-4.mb-lg-0
 
 
-    p(data-aos="fade-up").mb-4 La democracia se presenta no solo como un sistema político, sino como un ideal que promueve la participación ciudadana, fomenta la igualdad y consolida la justicia social. Su relevancia actual radica en su capacidad para adaptarse a contextos cambiantes y canalizar las demandas colectivas hacia un orden social más justo y participativo.
 
     h2(data-aos="flip-up") Desafios contemporáneos
 
@@ -141,7 +140,7 @@
         .row
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Desigualdad
-            p Esta etapa se centra en comprender profundamente al usuario y su contexto. Se trata de ponerse en los zapatos de las personas para identificar sus necesidades, problemas, deseos y emociones. Las técnicas comunes incluyen entrevistas, observación directa y estudios etnográficos, que permiten capturar la experiencia del usuario sin prejuicios.
+            p Las disparidades económicas y sociales dificultan la participación efectiva de ciertos sectores, comprometiendo los principios de justicia e igualdad. Estas barreras restringen el acceso a derechos fundamentales y limitan oportunidades.
         
           .col-md-6.col-lg-5.col-xl-4.order-1
             figure(data-aos="zoom-in")
