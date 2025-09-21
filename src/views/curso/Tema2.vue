@@ -179,7 +179,7 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.unilibre.edu.co/cartagena/pdf/investigacion/libros/derecho/CONSTITUCIONALISMO%20Y%20DEMOCRACIA.pdf" target="_blank" rel="noopener noreferrer") Mercado García, E. (2015). Constitucionalismo y Democracia en Colombia. Universidad Libre. 
+                a(href="https://www.redalyc.org/journal/279/27964922020/html/" target="_blank" rel="noopener noreferrer") Barros Arrieta, D., Lastre Amell, G., García Cali, E., & Ruiz Escorcia, L. (2020). Cultura de paz y formación ciudadana como bases de la educación en Colombia. Utopía y Praxis Latinoamericana, 25(Especial 11), 285–299.
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
